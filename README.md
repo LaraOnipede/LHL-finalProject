@@ -33,3 +33,11 @@ The following technologies were applied in executing this project:
     + Python
     + Flask
 
+**Needed Libraries**
+* Pandas
+* Seaborn
+* MatplotLib
+* MatplotLib.pyplot
+* Flask
+* Scikit Learn
+
