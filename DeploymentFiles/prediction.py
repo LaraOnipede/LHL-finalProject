@@ -20,7 +20,8 @@ json_data = {
 'code_presentation_y':0,
 }
 
-test = pd.read_csv('Xtest.csv', index_col=0)
+test = pd.read_csv('Xtest.csv')
+print(test.columns)
 test = test.to_json(orient='records')
 test = json.loads(test)
 
@@ -38,3 +39,4 @@ if response.status_code == 200:
 else:
     print('request failed')
     #print('Response content:', response.content)
+    #print ('Response content:' response.content)
